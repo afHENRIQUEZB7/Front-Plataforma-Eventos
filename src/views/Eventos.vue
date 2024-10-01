@@ -99,6 +99,7 @@ interface Evento {
 }
 
 const loadItems = async () => {
+    
     try {
         window.scrollTo(0, 0);
         const response = await getDataEventos();
